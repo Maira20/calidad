@@ -1,0 +1,360 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  background: #4D5A64;
+  height: 100%; }
+
+body {
+  /* background-color: royalblue; */
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
+
+.container {
+  width: 1100px;
+  margin: 0 auto; }
+
+.encabezado {
+  height: 60px;
+  margin-top: 24px; }
+
+.encabezado__titulo {
+  float: left; }
+  .encabezado__titulo h1 {
+    font: 700 22px/1.4em Helvetica, sans-serif;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    color: #f2f2f2; }
+
+.encabezado__audio {
+  float: right; }
+  .encabezado__audio span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 2px; }
+
+/*-------- toogle --------*/
+.toogle-container {
+  display: inline-block;
+  height: 70px;
+  width: 105px;
+  position: relative;
+  top: 12px; }
+
+.toggle {
+  height: 30px;
+  margin: 5px auto;
+  width: 70px; }
+
+.toggle-on.active {
+  text-indent: 16px !important; }
+
+.toggle-off.active {
+  text-indent: 27px !important; }
+
+/*------- Contenedor --------*/
+#contenedor {
+  width: 1100px;
+  height: 700px;
+  border: 4px solid #444;
+  margin: 20px auto;
+  background: url("../images/fondo.jpg") no-repeat top left scroll #ccc;
+  overflow: hidden;
+  position: relative; }
+
+/*------- Preguntas ---------*/
+#preguntas {
+  position: relative;
+  width: 1100px;
+  height: 700px; }
+
+.opcion {
+  display: none; }
+
+.question {
+  width: 320px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  top: 185px; }
+  .question p {
+    padding: 0px 6px;
+    margin: 0px 0 0;
+    font: normal 16px/1.2em Helvetica,Arial, sans-serif;
+    text-align: justify;
+    color: #fff; }
+
+.respuesta {
+  position: absolute;
+  width: 300px;
+  height: 70px;
+  left: 40px;
+  background: #fff;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 2px solid #fff; }
+  .respuesta:hover {
+    cursor: pointer;
+    border: 2px solid #D0E8E5; }
+  .respuesta p {
+    font: 400 16px/1.2em 'Helvetica',sans-serif;
+    color: #444;
+    padding: 0px 24px; }
+    .respuesta p span {
+      font-weight: bold;
+      padding-right: 4px; }
+
+.respuesta.uno {
+  top: 366px; }
+
+.respuesta.dos {
+  top: 440px; }
+
+.respuesta.tres {
+  top: 514px; }
+
+.respuesta.cuatro {
+  top: 588px; }
+
+.buena {
+  background-color: #31b744;
+  border-color: #258933 !important; }
+  .buena p, .buena p span {
+    color: #fff; }
+
+.mala {
+  background-color: #c83818;
+  border-color: #972a13 !important; }
+  .mala p, .mala p span {
+    color: #fff; }
+
+/* Cinta de numeros */
+.circulo {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 100px;
+  background: url('../images/aro.png') no-repeat;
+}
+
+.c0 { left: 543px; }
+.c1 { left: 634px; }
+.c2 { left: 720px; }
+.c3 { left: 807px; }
+.c4 { left: 891px; }
+
+.gano {
+  background: url("../images/aro_bien.png") top left no-repeat; }
+
+.perdio {
+  background: url("../images/aro_mal.png") top left no-repeat; }
+
+
+.numeros {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  z-index: 80; }
+
+.n0 {
+  left: 606px;
+  top: 300px;
+  background: url("../images/numeros/1.png") top left no-repeat; }
+
+.n0.bien {
+  background: url("../images/numeros/1bien.png") top left no-repeat; }
+
+.n0.mal {
+  background: url("../images/numeros/1mal.png") top left no-repeat; }
+
+.n1 {
+    left: 837px;
+    top: 202px;
+    background: url("../images/numeros/2.png") top left no-repeat; }
+
+.n1.bien {
+    background: url("../images/numeros/2bien.png") top left no-repeat; }
+
+.n1.mal {
+    background: url("../images/numeros/2mal.png") top left no-repeat; }
+
+.n2 {
+    left: 705px;
+    top: 362px;
+    background: url("../images/numeros/3.png") top left no-repeat; }
+
+.n2.bien {
+    background: url("../images/numeros/3bien.png") top left no-repeat; }
+
+.n2.mal {
+    background: url("../images/numeros/3mal.png") top left no-repeat; }
+
+.n3 {
+    left: 824px;
+    top: 512px;
+    background: url("../images/numeros/4.png") top left no-repeat; }
+
+.n3.bien {
+    background: url("../images/numeros/4bien.png") top left no-repeat; }
+
+.n3.mal {
+    background: url("../images/numeros/4mal.png") top left no-repeat; }
+
+.n4 {
+    left: 977px;
+    top: 381px;
+    background: url("../images/numeros/5.png") top left no-repeat; }
+
+.n4.bien {
+    background: url("../images/numeros/5bien.png") top left no-repeat; }
+
+.n4.mal {
+    background: url("../images/numeros/5mal.png") top left no-repeat; }
+
+/* Personaje */
+#personaje {
+  position: absolute;
+  left: 400px;
+  top: 309px;
+  height: 56px;
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+  line-height: 56px;
+  width: 36px;
+  z-index: 90;
+}
+
+#personaje.default {
+  background-position: 0 0; }
+
+#personaje.perdiop {
+  background-position: -72px 0; }
+
+#personaje.ganop {
+  background-position: -36px 0; }
+
+/* Resultados */
+.circle {
+  display: inline-block;
+  line-height: 1.2;
+  margin: 6px 6px 20px;
+  position: relative;
+  text-align: center;
+  width: 155px; }
+
+.circle strong {
+  font-size: 30px;
+  font-weight: 900;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%; }
+
+#resultados {
+  position: relative;
+  width: 1100px;
+  height: 700px;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+
+.estadistica {
+  width: 628px;
+  height: 496px;
+  background: url("../images/marco.png") center center no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #444; }
+
+.estadistica__puntaje {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100px; }
+
+.estadistica__numero, .estadistica__porcentaje {
+  width: 110px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px; }
+
+.estadistica__flecha {
+  position: relative; }
+
+.estadistica__flecha:before {
+  content: "";
+  display: block;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 15px 0px 15px 15px;
+  border-color: transparent transparent transparent orange; }
+
+.estadistica__mensaje {
+  width: 65%; }
+
+.estadistica__mensaje p {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #444; }
+
+.estadistica__botones {
+  height: 100px;
+  width: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.bt, .bt__jugar-de-nuevo, .bt__siguiente-actividad {
+  display: block;
+  border: 0px;
+  width: 80%;
+  text-align: center;
+  height: 35px;
+  padding: 7px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer; }
+
+.bt__jugar-de-nuevo {
+  background: #E17166;
+  color: #fff; }
+
+.bt__jugar-de-nuevo:hover {
+  background: #E09D64;
+  color: #fff; }
+
+/* Clases Helper */
+.box_round {
+  border-radius: 12px; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
+
+/*# sourceMappingURL=cuestionario.css.map */

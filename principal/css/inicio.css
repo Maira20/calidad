@@ -1,0 +1,59 @@
+.fondo{
+    background: url(../imagen/icono11.png);
+    background-repeat: no-repeat;
+    background-size: 100% 650px;
+    max-width:100%;
+
+  }
+
+.btnsiguiente{
+  text-decoration: none;
+  box-sizing: border-box;
+  background-image: url("../imagen/boton1.png");
+  background-size: 100%  100%;
+  border-radius: 260px;
+  
+
+  position: absolute;
+  top: 470px;
+  left: 480px;
+  width: 13%;
+  height: 55px;  
+}
+
+ @media all and (max-width: 850px ) {
+    .fondo{
+        background-size: 100% 575px;
+        
+    }
+    .btnsiguiente{
+       left: 165px;
+       top: 420px;
+      width: 20%;
+      
+      height: 40px;
+        
+      } 
+     } 
+      /* @media all and (max-width: 768px max-height 650px ) {
+        .fondo{
+            background-size: 100% auto ;
+        }
+        .btnsiguiente{
+            left: 200px;
+           top: 470px;
+            width: 20%;
+            height: 45px;
+        }  
+       }  
+         @media all and (max-width: 1200px max-height 650px) {
+          .fondo{
+              background-size: 100%  auto ;
+          }
+          .btnsiguiente{
+             left: 350px;
+             top: 720px;
+             width: 16%;
+             /* height: 50px; */
+            /* }     
+}    */

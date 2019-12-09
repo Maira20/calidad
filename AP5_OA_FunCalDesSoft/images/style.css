@@ -1,0 +1,145 @@
+#Stage_menu_opciones_contenido_opciones_bt_opciones6{
+    visibility: hidden;
+}
+
+/* Botón con escala*/
+.btn {transition: 0.15s;
+	transform: scale(1) !important;}
+.btn:hover {transform: scale(1.20) !important;}
+
+
+/* botones navegacion*/
+.bt_introduccion:hover { background-image:url(bt_introduccion_b.svg) !important;}
+.bt_home:hover { background-image:url(bt_home_b.svg) !important;}
+.bt_siguiente:hover { background-image:url(bt_siguiente_b.svg) !important;}
+.bt_anterior:hover { background-image:url(bt_anterior_b.svg) !important;}
+.bt_cerrar:hover { background-image:url(bt_cerrar_b.svg) !important;}
+.indica:hover { background-image:url(indica_b.svg) !important;}
+
+/* botones menú opciones*/
+.bt_opciones1:hover { background-image:url(bt_opciones1_b.svg) !important;}
+.bt_opciones2:hover { background-image:url(bt_opciones2_b.svg) !important;}
+.bt_opciones3:hover { background-image:url(bt_opciones3_b.svg) !important;}
+.bt_opciones4:hover { background-image:url(bt_opciones4_b.svg) !important;}
+.bt_opciones5:hover { background-image:url(bt_opciones5_b.svg) !important;}
+.bt_opciones6:hover { background-image:url(bt_opciones6_b.svg) !important;}
+
+/* botones menú OA*/
+.bt1:hover { background-image:url(bt1_b.svg) !important;}
+.bt2:hover {background-image: url(bt2_b.svg) !important;}
+.bt3:hover {background-image: url(bt3_b.svg) !important;}
+.bt4:hover {background-image: url(bt4_b.svg) !important;}
+.bt5:hover {background-image: url(bt5_b.svg) !important;}
+
+
+/* botones temas*/
+.bt1_sub1:hover { background-image:url(bt1_sub1_b.svg) !important;}
+.bt1_sub2:hover { background-image:url(bt1_sub2_b.svg) !important;}
+.bt1_sub3:hover { background-image:url(bt1_sub3_b.svg) !important;}
+.bt1_sub4:hover { background-image:url(bt1_sub4_b.svg) !important;}
+.bt1_sub5:hover { background-image:url(bt1_sub5_b.svg) !important;}
+
+.bt2_sub1:hover { background-image:url(bt2_sub1_b.svg) !important;}
+.bt2_sub2:hover { background-image:url(bt2_sub2_b.svg) !important;}
+.bt2_sub3:hover { background-image:url(bt2_sub3_b.svg) !important;}
+.bt2_sub4:hover { background-image:url(bt2_sub4_b.svg) !important;}
+
+.bt3_sub1:hover { background-image:url(bt3_sub1_b.svg) !important;}
+.bt3_sub2:hover { background-image:url(bt3_sub2_b.svg) !important;}
+.bt3_sub3:hover { background-image:url(bt3_sub3_b.svg) !important;}
+.bt3_sub4:hover { background-image:url(bt3_sub4_b.svg) !important;}
+.bt3_sub5:hover { background-image:url(bt3_sub5_b.svg) !important;}
+
+
+.bt4_sub1:hover { background-image:url(bt4_sub1_b.svg) !important;}
+.bt4_sub2:hover { background-image:url(bt4_sub2_b.svg) !important;}
+
+
+.btn_s1:hover { background-image:url(bt_arq1b.svg) !important;}
+.btn_s2:hover { background-image:url(bt_arq2b.svg) !important;}
+.btn_s3:hover { background-image:url(bt_arq3b.svg) !important;}
+.btn_s4:hover { background-image:url(bt_arq4b.svg) !important;}
+.btn_s5:hover { background-image:url(bt_arq5b.svg) !important;}
+.btn_s6:hover { background-image:url(bt_arq6b.svg) !important;}
+.btn_s7:hover { background-image:url(bt_arq7b.svg) !important;}
+
+
+.unocubo:hover { background-image:url(unocubo_b.svg) !important;}
+.doscubo:hover { background-image:url(doscubo_b.svg) !important;}
+.trescubo:hover { background-image:url(trescubo_b.svg) !important;}
+.btn_t1:hover { background-image:url(btn_t1_b.svg) !important;}
+.btn_t2:hover { background-image:url(btn_t2_b.svg) !important;}
+.btn_t3:hover { background-image:url(btn_t3_b.svg) !important;}
+.btn_t4:hover { background-image:url(btn_t4_b.svg) !important;}
+
+.btnx {
+	transition: 0.1s;
+}
+.btnx:hover {
+	transform: translateX(8px) !important;
+	
+}
+
+.volver {
+	transition: 0.1s;
+}
+.volver:hover {
+	transform: translateX(-8px) !important;
+	
+}
+
+.btn_ant:hover {background-image: url(bt_anteriorb.svg) !important;}
+.btn_sig:hover {background-image: url(bt_siguienteb.svg) !important;}
+
+
+
+.btn_cerrar:hover {
+	background-image: url(bt_cerrar_b.svg) !important;
+	transform: scale(1.1) !important;
+	-webkit-transform-: scale(1.1) !important;
+}
+.btn_cerrar2:hover {
+	background-image: url(bt_cerrar_b.svg) !important;
+
+}
+
+.p1 {
+  background-image:url(bt1.svg);
+  -webkit-transform-: scale(1.3) !important;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+.texto14 { font-size:24px
+ }
+
+}
+
+/*Viñeta*/
+ul { list-style-image:url(img_lista.png);
+height:auto;}
+
+
+
+/*Tabla*/
+table {
+    border-collapse: collapse;
+	width: 100%;
+	background:#FFFFFF;
+}
+
+th, td {
+	border: 1px solid #E3E1E1;
+	padding: 5px 8px;
+}
+
+tr:nth-child(odd){background-color: #f2f2f2}
+
+th {
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	background-color: #a35f31;
+}
+

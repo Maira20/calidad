@@ -1,0 +1,73 @@
+
+/* ******************************************************************** */
+.fondo{
+  background: url(../imagen/fon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 650px;
+  max-width:100%;
+
+}
+
+.btn{
+  text-decoration: none;
+  box-sizing: border-box;
+  background-image: url("../imagen/boton.png");
+  background-repeat: no-repeat;
+  background-size: 100%  100%;
+  border-radius: 10px;
+  
+
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  width: 35%;
+  height: 85px;
+}
+.btn:hover
+{
+  transform: translateY(10px);
+  box-shadow: 0px 30px 10px -15px rgba(0,0,0,0.5);
+
+}
+.btn2{
+  text-decoration: none;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 35px;
+  color: #ffffff;
+  background-image: url("../imagen/boton2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  
+  position: absolute;
+  top: 450px;
+  left: 250px;
+  text-align: center;
+  width: 35%;
+  height: 85px;
+}
+.btn2:hover{
+  transform: translateY(10px);
+  box-shadow: 0px 30px 10px -15px rgba(0,0,0,0.5);
+
+}
+
+@media  all and (max-width: 850px) {
+.fondo{
+  background-size: 100% 575px;
+}
+.btn{
+  left: 70px;
+  top: 310px;
+  width: 35%;
+  height: 60px;
+}
+.btn2{
+  left: 70px;
+  top: 390px;
+  width: 35%;
+  height: 60px;
+}
+
+}

@@ -1,0 +1,37 @@
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In  -->
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="1280px" height="600.309px" viewBox="0 0 1280 600.309" enable-background="new 0 0 1280 600.309"
+	 xml:space="preserve">
+<defs>
+</defs>
+<radialGradient id="SVGID_1_" cx="-148.959" cy="-64.7976" r="956.6759" gradientTransform="matrix(1 0 0 0.7113 0 -18.7039)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.8828" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.8937" style="stop-color:#F9F9F9"/>
+	<stop  offset="0.9084" style="stop-color:#E8E8E8"/>
+	<stop  offset="0.9252" style="stop-color:#CBCBCB"/>
+	<stop  offset="0.9437" style="stop-color:#A4A4A4"/>
+	<stop  offset="0.9636" style="stop-color:#717171"/>
+	<stop  offset="0.9842" style="stop-color:#343434"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</radialGradient>
+<path fill="url(#SVGID_1_)" d="M0,531.639c0,0,371,14.649,603.82-222.087c0,0,117.18-97.577,186.262-309.243H0V531.639z"/>
+<radialGradient id="SVGID_2_" cx="1457.4711" cy="693.1448" r="795.5289" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.8828" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.8937" style="stop-color:#F9F9F9"/>
+	<stop  offset="0.9084" style="stop-color:#E8E8E8"/>
+	<stop  offset="0.9252" style="stop-color:#CBCBCB"/>
+	<stop  offset="0.9437" style="stop-color:#A4A4A4"/>
+	<stop  offset="0.9636" style="stop-color:#717171"/>
+	<stop  offset="0.9842" style="stop-color:#343434"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</radialGradient>
+<path fill="url(#SVGID_2_)" d="M1131.022,0C812.178,208.502,733.917,471.144,714.967,599.309H1280V0H1131.022z"/>
+<path fill="#DB5940" d="M919.777,0.312C647.875,472.279,281.663,582.716,0,583.429v16.191h714.967
+	c18.95-128.165,97.211-390.807,416.056-599.309H919.777z"/>
+<path fill="#414042" d="M693.246,599.621h21.721c18.95-128.165,97.211-390.807,416.056-599.309h-67.174
+	C777.289,181.095,708.596,494.233,693.246,599.621z"/>
+<path fill="#414042" d="M788.948,0.312C650.529,419.659,300.62,525.82,0,532.247v51.183
+	c281.663-0.713,647.875-111.15,919.777-583.118H788.948z"/>
+<rect y="0.309" fill="none" width="1280" height="600"/>
+</svg>
